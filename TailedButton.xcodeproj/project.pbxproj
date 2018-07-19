@@ -1,0 +1,360 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		129D93A320FF51BC00EEF5FE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 129D93A220FF51BC00EEF5FE /* AppDelegate.m */; };
+		129D93A620FF51BC00EEF5FE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 129D93A520FF51BC00EEF5FE /* ViewController.m */; };
+		129D93A920FF51BC00EEF5FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 129D93A720FF51BC00EEF5FE /* Main.storyboard */; };
+		129D93AB20FF51BD00EEF5FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 129D93AA20FF51BD00EEF5FE /* Assets.xcassets */; };
+		129D93AE20FF51BD00EEF5FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 129D93AC20FF51BD00EEF5FE /* LaunchScreen.storyboard */; };
+		129D93B120FF51BD00EEF5FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 129D93B020FF51BD00EEF5FE /* main.m */; };
+		129D93B820FF51CE00EEF5FE /* TailedButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = 129D93B720FF51CE00EEF5FE /* TailedButton.xib */; };
+		129D93BB20FF51DD00EEF5FE /* TailedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 129D93BA20FF51DD00EEF5FE /* TailedButton.m */; };
+		129D93BD20FF52AA00EEF5FE /* 倒三角.png in Resources */ = {isa = PBXBuildFile; fileRef = 129D93BC20FF52A900EEF5FE /* 倒三角.png */; };
+		12F9A8FA210021750008CC6C /* func.m in Sources */ = {isa = PBXBuildFile; fileRef = 12F9A8F9210021750008CC6C /* func.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		129D939E20FF51BC00EEF5FE /* TailedButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TailedButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		129D93A120FF51BC00EEF5FE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		129D93A220FF51BC00EEF5FE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		129D93A420FF51BC00EEF5FE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		129D93A520FF51BC00EEF5FE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		129D93A820FF51BC00EEF5FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		129D93AA20FF51BD00EEF5FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		129D93AD20FF51BD00EEF5FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		129D93AF20FF51BD00EEF5FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		129D93B020FF51BD00EEF5FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		129D93B720FF51CE00EEF5FE /* TailedButton.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TailedButton.xib; sourceTree = "<group>"; };
+		129D93B920FF51DD00EEF5FE /* TailedButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TailedButton.h; sourceTree = "<group>"; };
+		129D93BA20FF51DD00EEF5FE /* TailedButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TailedButton.m; sourceTree = "<group>"; };
+		129D93BC20FF52A900EEF5FE /* 倒三角.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "倒三角.png"; sourceTree = "<group>"; };
+		12F9A8F8210021750008CC6C /* func.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = func.h; sourceTree = "<group>"; };
+		12F9A8F9210021750008CC6C /* func.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = func.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		129D939B20FF51BC00EEF5FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		129D939520FF51BC00EEF5FE = {
+			isa = PBXGroup;
+			children = (
+				129D93A020FF51BC00EEF5FE /* TailedButton */,
+				129D939F20FF51BC00EEF5FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		129D939F20FF51BC00EEF5FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				129D939E20FF51BC00EEF5FE /* TailedButton.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		129D93A020FF51BC00EEF5FE /* TailedButton */ = {
+			isa = PBXGroup;
+			children = (
+				129D93BC20FF52A900EEF5FE /* 倒三角.png */,
+				129D93A120FF51BC00EEF5FE /* AppDelegate.h */,
+				129D93B720FF51CE00EEF5FE /* TailedButton.xib */,
+				129D93B920FF51DD00EEF5FE /* TailedButton.h */,
+				129D93BA20FF51DD00EEF5FE /* TailedButton.m */,
+				129D93A220FF51BC00EEF5FE /* AppDelegate.m */,
+				129D93A420FF51BC00EEF5FE /* ViewController.h */,
+				129D93A520FF51BC00EEF5FE /* ViewController.m */,
+				129D93A720FF51BC00EEF5FE /* Main.storyboard */,
+				129D93AA20FF51BD00EEF5FE /* Assets.xcassets */,
+				129D93AC20FF51BD00EEF5FE /* LaunchScreen.storyboard */,
+				129D93AF20FF51BD00EEF5FE /* Info.plist */,
+				129D93B020FF51BD00EEF5FE /* main.m */,
+				12F9A8F8210021750008CC6C /* func.h */,
+				12F9A8F9210021750008CC6C /* func.m */,
+			);
+			path = TailedButton;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		129D939D20FF51BC00EEF5FE /* TailedButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 129D93B420FF51BD00EEF5FE /* Build configuration list for PBXNativeTarget "TailedButton" */;
+			buildPhases = (
+				129D939A20FF51BC00EEF5FE /* Sources */,
+				129D939B20FF51BC00EEF5FE /* Frameworks */,
+				129D939C20FF51BC00EEF5FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TailedButton;
+			productName = TailedButton;
+			productReference = 129D939E20FF51BC00EEF5FE /* TailedButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		129D939620FF51BC00EEF5FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = yhy;
+				TargetAttributes = {
+					129D939D20FF51BC00EEF5FE = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 129D939920FF51BC00EEF5FE /* Build configuration list for PBXProject "TailedButton" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 129D939520FF51BC00EEF5FE;
+			productRefGroup = 129D939F20FF51BC00EEF5FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				129D939D20FF51BC00EEF5FE /* TailedButton */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		129D939C20FF51BC00EEF5FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				129D93B820FF51CE00EEF5FE /* TailedButton.xib in Resources */,
+				129D93BD20FF52AA00EEF5FE /* 倒三角.png in Resources */,
+				129D93AE20FF51BD00EEF5FE /* LaunchScreen.storyboard in Resources */,
+				129D93AB20FF51BD00EEF5FE /* Assets.xcassets in Resources */,
+				129D93A920FF51BC00EEF5FE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		129D939A20FF51BC00EEF5FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12F9A8FA210021750008CC6C /* func.m in Sources */,
+				129D93BB20FF51DD00EEF5FE /* TailedButton.m in Sources */,
+				129D93A620FF51BC00EEF5FE /* ViewController.m in Sources */,
+				129D93B120FF51BD00EEF5FE /* main.m in Sources */,
+				129D93A320FF51BC00EEF5FE /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		129D93A720FF51BC00EEF5FE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				129D93A820FF51BC00EEF5FE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		129D93AC20FF51BD00EEF5FE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				129D93AD20FF51BD00EEF5FE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		129D93B220FF51BD00EEF5FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		129D93B320FF51BD00EEF5FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		129D93B520FF51BD00EEF5FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9UJ7X87G9E;
+				INFOPLIST_FILE = TailedButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.mapout.TailedButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		129D93B620FF51BD00EEF5FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9UJ7X87G9E;
+				INFOPLIST_FILE = TailedButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.mapout.TailedButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		129D939920FF51BC00EEF5FE /* Build configuration list for PBXProject "TailedButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				129D93B220FF51BD00EEF5FE /* Debug */,
+				129D93B320FF51BD00EEF5FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		129D93B420FF51BD00EEF5FE /* Build configuration list for PBXNativeTarget "TailedButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				129D93B520FF51BD00EEF5FE /* Debug */,
+				129D93B620FF51BD00EEF5FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 129D939620FF51BC00EEF5FE /* Project object */;
+}

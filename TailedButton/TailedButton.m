@@ -23,6 +23,9 @@
     
     self.view.userInteractionEnabled = NO;
     [self addSubview:self.view];
+    // 重新计算 subview 布局，否则布局会不正常
+    [self.view setNeedsLayout];
+    [self.view layoutIfNeeded];
 }
 
 -(UIView*)loadViewFromNib{

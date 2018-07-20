@@ -8,6 +8,7 @@
 
 #import "TailedButton.h"
 #import "func.h"
+#import "dimensions.h"
 
 @implementation TailedButton
 
@@ -50,10 +51,14 @@
 }
 -(void)setTitle:(NSString *)title{
     _titleLabel.text = title;
-    CGSize size = sizeForText(title, [_titleLabel.font pointSize], self.frame.size.width);
+    CGSize size = sizeForText(title, [_titleLabel.font pointSize], SCREEN_WIDTH);
     
     self.iconCenterX.constant = size.width/2 + 8;
-//    [self setNeedsLayout];
+    
+    NSLog(@"frame.width:%f,iconCenterX.constant:%f",self.frame.size.width,size.width/2+8);
+    // 重新计算布局
+    //    [self setNeedsLayout];
+    //    [self layoutIfNeeded];
 }
 -(void)setSelected:(BOOL)selected{
     [super setSelected:selected];

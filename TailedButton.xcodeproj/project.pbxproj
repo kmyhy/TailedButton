@@ -36,6 +36,7 @@
 		129D93BC20FF52A900EEF5FE /* 倒三角.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "倒三角.png"; sourceTree = "<group>"; };
 		12F9A8F8210021750008CC6C /* func.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = func.h; sourceTree = "<group>"; };
 		12F9A8F9210021750008CC6C /* func.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = func.m; sourceTree = "<group>"; };
+		12FCE67E2101B3E9004012C5 /* dimensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dimensions.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +72,7 @@
 				129D93BC20FF52A900EEF5FE /* 倒三角.png */,
 				129D93A120FF51BC00EEF5FE /* AppDelegate.h */,
 				129D93B720FF51CE00EEF5FE /* TailedButton.xib */,
+				12FCE67E2101B3E9004012C5 /* dimensions.h */,
 				129D93B920FF51DD00EEF5FE /* TailedButton.h */,
 				129D93BA20FF51DD00EEF5FE /* TailedButton.m */,
 				129D93A220FF51BC00EEF5FE /* AppDelegate.m */,

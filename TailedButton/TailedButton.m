@@ -37,7 +37,7 @@
     return view;
 }
 -(instancetype)initWithFrame:(CGRect)frame{
-    
+    _aFrame = frame;
     self = [super initWithFrame: frame];
     [self xibSetup];
     return self;
@@ -57,11 +57,10 @@
     CGSize size = sizeForText(title, [_titleLabel.font pointSize], SCREEN_WIDTH);
     
     self.iconCenterX.constant = size.width/2 + 8;
-    
-    NSLog(@"frame.width:%f,iconCenterX.constant:%f",self.frame.size.width,size.width/2+8);
     // 重新计算布局
-    //    [self setNeedsLayout];
-    //    [self layoutIfNeeded];
+    CGRect rect = self.frame;
+    rect.size.width = size.width + 14;
+    [super setFrame:rect];
 }
 -(void)setSelected:(BOOL)selected{
     [super setSelected:selected];
@@ -70,6 +69,15 @@
         _ivIcon.transform = transform;
     }else{
         _ivIcon.transform = CGAffineTransformIdentity;
+    }
+}
+-(void)layoutSubviews{
+    if(_aFrame.size.width != self.frame.size.width){// self.frame 被 UIKit 修改!!!
+        NSLog(@"1.==frame.width:%f",self.frame.size.width);
+        CGRect rect = self.frame;
+        rect.size.width = rect.size.width + 14;
+        [super setFrame:rect];
+        NSLog(@"2.==frame.width:%f",self.frame.size.width);
     }
 }
 @end

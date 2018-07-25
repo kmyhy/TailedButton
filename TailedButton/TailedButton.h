@@ -9,7 +9,9 @@
 #import <UIKit/UIKit.h>
 
 IB_DESIGNABLE
-@interface TailedButton : UIControl
+@interface TailedButton : UIControl{
+    CGRect _aFrame;
+}
 @property (weak, nonatomic) IBOutlet UILabel *titleLabel;
 @property (weak, nonatomic) IBOutlet UIImageView *ivIcon;
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *iconCenterX;
